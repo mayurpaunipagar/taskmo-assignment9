@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 .App{
+  font-family:Mulish;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -21,12 +22,22 @@
   font-weight: bold;
   font-size:20px;
 }
+.thanks{
+  font-weight: bold;
+  font-size:15px;
+  margin:10px;
+}
 .myForm{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin:20px;
+}
+.formText{
+  color: gray;
+  width: 340px;
+  font-size: 13px;
 }
 .myInput{
   padding:10px;
@@ -43,11 +54,48 @@
   color:black;
 }
 .submitBtn{
-  background-color: rgb(196,196,196);
+  background-color: #855bf5;
   padding:10px 40px;
   margin:40px;
   color:white;
   font-weight: bold;
   border-radius:5px;
   box-shadow: 0px 0px 20px 0px rgb(196,196,196);
+}
+.submitBtn:disabled{
+  background-color: rgb(196,196,196);
+  box-shadow: 0px 0px 20px 0px rgb(196,196,196);
+}
+
+@media (max-width:400px) {
+  .myPhone{
+    width:90vw;
+  }
+  .formText{
+    width: 85vw !important;
+    font-size: 11px;
+  } 
+  .myInput{
+    padding:10px;
+    border-radius:7px;
+    width:70vw !important;
+    margin:10px;font-size: 11px;
+    border:2px solid rgb(204, 204, 204);
+  }
+  .myInput:focus{
+    font-size: 13px;
+  }
+  .selectInput{
+    width: 78vw !important;
+    color:gray;font-size: 11px;
+  }
+  .thanks{
+    font-size: 4vw;
+    margin: 10px;
+    text-align: center;
+  }
+  .welcome{
+    font-size:18px;
+    text-align: center;
+  }
 }
