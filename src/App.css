@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+.App{
+  display:flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.myPhone{
+  width:400px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.leadLogo{
+  margin:20px;
+}
+.welcome{
+  color:#c779d3;
+  font-weight: bold;
+  font-size:20px;
+}
+.myForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin:20px;
+}
+.myInput{
+  padding:10px;
+  border-radius:7px;
+  width:300px;
+  margin:10px;
+  border:2px solid rgb(204, 204, 204);
+}
+.selectInput{
+  width: 325px !important;
+  color:gray;
+}
+.selectInput:focus{
+  color:black;
+}
+.submitBtn{
+  background-color: rgb(196,196,196);
+  padding:10px 40px;
+  margin:40px;
+  color:white;
+  font-weight: bold;
+  border-radius:5px;
+  box-shadow: 0px 0px 20px 0px rgb(196,196,196);
 }
