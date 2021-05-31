@@ -1,0 +1,2 @@
+const SUBMIT_FORM_URL="";
+export {SUBMIT_FORM_URL};
