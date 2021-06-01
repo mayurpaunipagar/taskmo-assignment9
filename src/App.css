@@ -67,6 +67,13 @@
   box-shadow: 0px 0px 20px 0px rgb(196,196,196);
 }
 
+.sameAsContact{
+  width:300px;
+}
+.checkbox:checked{
+  background-color: #855bf5 !important;
+}
+
 @media (max-width:400px) {
   .myPhone{
     width:90vw;
